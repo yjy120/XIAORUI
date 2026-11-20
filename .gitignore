@@ -1,0 +1,36 @@
+# 虚拟环境
+.venv/
+venv/
+venv_broken/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 依赖目录
+node_modules/
+dist/
+
+# 环境变量（含密钥，切勿提交）
+.env
+.env.*
+
+# 日志与上传
+*.log
+backend/uploads/
+
+# 系统文件
+.DS_Store
+Thumbs.db

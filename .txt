@@ -1,0 +1,15 @@
+1、先进入目录XIAORUI
+
+2、ctrl+~（终端输入）
+cd backend
+
+3、终端运行
+python -m uvicorn app.main:app --reload
+
+4、再开一个终端
+cd frontend
+
+5、npm install jwt-decode
+
+6、终端运行
+npm run dev
